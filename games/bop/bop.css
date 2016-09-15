@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: lightgrey;
+}
+
+#canvas{
+	margin: 0px;
+	padding: 0px;
+	width: 98%;
+	height: 96%;
+	position: fixed;
+	top: 2%;
+	left: 1%;
+	background-color: white;
+}
+
+#cursor{
+	margin: 0px;
+	padding: 0px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: red;
+}
+
+#cursor-pointer{
+	margin: 0px;
+	padding: 0px;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	background-color: blue;
+}
+
+#left-button{
+	display: block;
+	width: 10vh;
+	height: 10vh;
+	position: fixed;
+	left: 5vh;
+	bottom: calc(50vh - 5vh);
+	opacity: 0.8;
+	background-color: lightgrey;
+	color: grey;
+	line-height: 10vh;
+	font-size: 6vh;
+	text-align: center;
+	vertical-align: center;
+}
+
+#right-button{
+	display: block;
+	width: 10vh;
+	height: 10vh;
+	position: fixed;
+	right: 5vh;
+	bottom: calc(50vh - 5vh);
+	opacity: 0.8;
+	background-color: lightgrey;
+	color: grey;
+	line-height: 10vh;
+	font-size: 6vh;
+	text-align: center;
+	vertical-align: center;
+}

@@ -1,0 +1,59 @@
+body {
+	margin: 0px; padding: 0px;
+	background-color: black;
+}
+
+div {
+	margin: 0px; padding: 0px;
+}
+
+#Container {
+	margin: 0px auto;
+	margin-top: 30vh;
+	height: 35vh; width: 135vh;
+}
+
+.numeral {
+	margin-right: 5vh;
+	height: 35vh; width: 15vh;
+	display: inline-block;
+}
+
+#Sec1 {
+	margin-right: 0px;
+}
+
+.delimiter {
+	margin-top: 25vh;
+	margin-bottom: 5vh;
+	margin-right: 5vh;
+	height: 5vh; width: 5vh;
+	display: inline-block;
+	background-color: white;
+}
+
+.numeral>.numRow {
+	height: 5vh; width: 15vh;
+}
+
+.numeral>.numRow.numRow2, .numeral>.numRow.numRow3 {
+	height: 10vh;
+}
+
+.numeral>.numRow>.numBlock {
+	height: 100%; width: 5vh;
+	display: inline-block;
+	background-color: black;
+}
+
+.numeral>.numRow.numRow4>.numBlock {
+	background-color: white;
+}
+
+.numeral>.numRow.numRow5>.numBlock.numBlock2 {
+	background-color: white;
+}
+
+.numeral>.numRow>.numBlock.ON	{
+	background-color: white;
+}

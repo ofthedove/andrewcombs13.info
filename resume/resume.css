@@ -1,0 +1,73 @@
+body{
+	background-color: whitesmoke;
+}
+
+[data-link="true"]:hover{
+	background-color: darkgrey;
+	cursor: pointer;
+}
+
+/* ############################## Header ############################## */
+#header{
+	text-align: center;
+}
+
+#header ul{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#header ul li{
+	display: inline-block;
+	padding: 0px 10px;
+	border-right: 1px solid darkgrey;
+}
+
+#header ul li.last-item{
+	border-right: none;
+}
+
+#header ul li a{	
+	text-decoration: none;
+	color: darkgrey;
+}
+
+#header ul li a:hover{
+	color: black;
+	cursor: pointer;
+}
+
+#header ul li a.active{
+	color: black;
+	cursor: default;
+}
+
+/* ############################## Resume ############################## */
+
+/* ############################## Portfolio ############################## */
+.project-container{
+	padding: 0px 10px;
+}
+
+.portfolio-project{
+	display: inline-block; float: left;
+	width: 300px; height: 400px;
+	margin: 15px; padding: 10px;
+	background-color: #eee;
+}
+
+.portfolio-project:hover{
+	background-color: lightgrey;
+}
+
+.portfolio-project .pp-thumbnail{
+	width: 280px; height: 220px;
+	margin: 0px; padding: 0px;
+	border: none;
+}
+
+.portfolio-project .pp-intro-text{
+	
+}
+
+/* ############################## Contact ############################## */

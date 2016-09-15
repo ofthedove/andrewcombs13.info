@@ -1,0 +1,163 @@
+body {
+	margin: 0px; padding: 0px;
+}
+
+.unselectable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#Slider {
+	position: fixed;
+	top: 0px; bottom: 0px;
+	width: 100%; right: 100%; /* Used to be left: 0px; but that didnt work in firefox */
+	z-index: fixed;
+	background-color: red;
+}
+
+#TimeInputBox {
+	width: 500px; height: 300px;
+	z-index: 20;
+	position: fixed;
+	top: calc(50% - 150px);
+	left: calc(50% - 250px);
+	background-color: whitesmoke;
+	border: 1px solid darkgrey;
+	border-radius: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 50px;
+	display: none;
+}
+	
+	#TimeInputBoxTitle {
+		width: 250px; height: 75px;
+		position: absolute;
+		left: calc(50% - 125px);
+		top: 30px;
+		font-size: 40px;
+		line-height: 60px;
+		text-align: center;
+	}
+	
+	#TimeInputBox table {
+		width: 400px; height: 100px;
+		position: absolute;
+		top: calc(50% - 50px - 10px);
+		left: calc(50% - 200px);
+	}
+		
+		#TimeInputBox td {
+			text-align: center;
+			line-height: 10px;
+			padding-top: 20px;
+		}
+		
+		#TimeInputBox input[type="number"] {
+			width: 100px; height: 30px;
+			font-size: 25px;
+			line-height: 30px;
+			text-align: center;
+		}
+	
+	#TimeInputBoxCancel {
+		width: 195px;	height: 50px;
+		position: absolute;
+		left: 45px;	bottom: 40px;
+		background-color: lightgrey;
+		border: 0px solid black;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 25px;
+		line-height: 50px;
+		text-align: center;
+	}
+		
+		#TimeInputBoxCancel:hover {
+			background-color: darkgrey;
+		}
+	
+	#TimeInputBoxSet {
+		width: 195px;	height: 50px;
+		position: absolute;
+		right: 45px;	bottom: 40px;
+		background-color: lightgrey;
+		border: 0px solid black;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 25px;
+		line-height: 50px;
+		text-align: center;
+	}
+		
+		#TimeInputBoxSet:hover {
+			background-color: darkgrey;
+		}
+
+#TimerBox {
+	position: fixed;
+	width: 400px;
+	height: 185px;
+	top: calc(50% - 50px);
+	left: calc(50% - 200px);
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+}
+	
+	#Time {
+		width: 400px;	height: 100px;
+		position: absolute;
+		left: 0px;	top: 0px;
+		background-color: whitesmoke;
+		border: 0px solid black;
+		border-radius: 10px;
+		font-size: 75px;
+		line-height: 100px;
+		cursor: pointer;
+	}
+		
+		#Time:hover {
+			background-color: lightgrey;
+		}
+	
+	#Controls {
+		width: 400px;	height: 75px;
+		position: absolute;
+		left: 0px;	bottom: 0px;
+		font-size: 50px;
+		line-height: 75px;
+	}
+		
+		#Reset {
+			width: 195px;	height: 75px;
+			position: absolute;
+			left: 0px;	top: 0px;
+			background-color: whitesmoke;
+			border: 0px solid black;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+			
+			#Reset:hover {
+				background-color: lightgrey;
+			}
+
+		#StartStop {
+			width: 195px;	height: 75px;
+			position: absolute;
+			right: 0px;	top: 0px;
+			background-color: whitesmoke;
+			border: 0px solid black;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+			
+			#StartStop:hover {
+				background-color: lightgrey;
+			}
