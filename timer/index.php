@@ -15,6 +15,7 @@
 	<script type="text/javascript" src="timer.js"></script>
 </head>
 <body>
+   <?php include_once("/var/www/html/analyticstracking.php") ?>
 	<div id="Slider"></div>
 	<div id="TimeInputBox">
 		<div id="TimeInputBoxTitle">Set Time:</div>
