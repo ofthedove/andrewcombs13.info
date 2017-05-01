@@ -1,0 +1,48 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+ul{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+li{
+	display: block;
+	width: 40%;
+	margin: 2% auto;
+	padding: 1% 5%;
+	background-color: lightgrey;
+}
+
+li:active{
+	background-color: grey;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+h3{
+	
+}
+
+img{
+	width: 100%;
+	margin: 10px auto;
+	border: 2px solid black;
+}
+
+.copy{
+	
+}
+
+p{
+	
+}
