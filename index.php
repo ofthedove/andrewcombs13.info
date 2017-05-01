@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+   <?php include_once("analyticstracking.php") ?>
    <div id="container">
       <h1>This site is under development</h1>
       <h2>And it probably always will be</h2>

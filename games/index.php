@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+   <?php include_once("analyticstracking.php") ?>
 	<ul>
 		<li>
 			<a href="drip/"><h3>Drip</h3></a>

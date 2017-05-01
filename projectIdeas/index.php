@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+   <?php include_once("analyticstracking.php") ?>
    <h1>Project Ideas</h1>
    <h2>A bunch of ideas for projects, originally for inspiration at hackathons</h2>
    <h2>It's a mix of hardware and software projects</h2>

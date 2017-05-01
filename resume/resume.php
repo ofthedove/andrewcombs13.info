@@ -11,6 +11,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+   <?php include_once("analyticstracking.php") ?>
 	<div id="header" class="jumbotron">
 		<div class="container">
 			<h1>Andrew Combs</h1>
