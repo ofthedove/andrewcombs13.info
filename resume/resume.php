@@ -1,3 +1,5 @@
+<?php $page = "resume" ?>
+
 <!DOCTYPE html>
 <html>
 <head>

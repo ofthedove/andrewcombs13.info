@@ -1,3 +1,5 @@
+<?php $page = "portfolio" ?>
+
 <!DOCTYPE html>
 <html>
 <head>

@@ -1,3 +1,5 @@
+<?php $page = "contact" ?>
+
 <!DOCTYPE html>
 <html>
 <head>
