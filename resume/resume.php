@@ -1,4 +1,4 @@
-<?php $page = "resume" ?>
+<?php $page = "resume"; ?>
 
 <!DOCTYPE html>
 <html>

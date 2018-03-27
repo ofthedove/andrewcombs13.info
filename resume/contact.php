@@ -1,4 +1,4 @@
-<?php $page = "contact" ?>
+<?php $page = "contact"; ?>
 
 <!DOCTYPE html>
 <html>
