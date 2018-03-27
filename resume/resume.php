@@ -11,18 +11,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-   <?php include_once("/var/www/html/analyticstracking.php") ?>
-	<div id="header" class="jumbotron">
-		<div class="container">
-			<h1>Andrew Combs</h1>
-			<ul>
-				<li><a href="resume.php" class="active">Resume</a></li
-				><li class="last-item"><a href="resume.pdf">Download PDF</a></li
-				><!--<li class="last-item"><a href="portfolio.php">Portfolio</a></li
-				>--><!--<li class="last-item"><a href="contact.php">Contact</a></li>-->
-			</ul>
-		</div>
-	</div>
+	<?php include_once("/var/www/html/analyticstracking.php") ?>
+	<?php include("resumeHeader.php") ?>
 	
 	<div id="resumeContent" style="display: block; width: 90%; overflow: visible; border: none; margin: 20px auto;"></div>
 	<script>

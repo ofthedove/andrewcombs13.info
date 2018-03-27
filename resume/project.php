@@ -11,17 +11,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<!-- #################### Header #################### -->
-	<div id="header" class="jumbotron">
-		<div class="container">
-			<h1>Andrew Combs</h1>
-			<ul>
-				<li><a href="resume.php">Resume</a></li
-				><li class="last-item"><a href="portfolio.php">Portfolio</a></li
-				><!--<li class="last-item"><a href="contact.php">Contact</a></li>-->
-			</ul>
-		</div>
-	</div>
+	<?php include("resumeHeader.php") ?>
+	
 	<?php
 		switch($_GET['id'])
 		{
