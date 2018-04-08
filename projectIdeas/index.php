@@ -11,6 +11,7 @@
    <h1>Project Ideas</h1>
    <h2>A bunch of ideas for projects, originally for inspiration at hackathons</h2>
    <h2>It's a mix of hardware and software projects</h2>
+	<h3>(These are sorted chronologically, from oldest to newest. I'm working on it.)</h3>
 	<ul>
 		<li>
 			<h3>Ultrasonic radar</h3>
@@ -250,6 +251,138 @@
 			<h3>Better motion lights</h3>
 			<div class="copy">
 				<p>Motion lights that don't turn off when they stop seeing motion, they turn off when they sense motion somewhere else. Only really works if there's only one person though... This idea still needs work</p>
+			</div>
+		</li>
+		<li>
+			<h3>"Am I Wasting my Time" website</h3>
+			<div class="copy">
+				<p>It just says yes.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Jabba Script</h3>
+			<div class="copy">
+				<p>Java Script, but <a href="http://starwars.wikia.com/wiki/Hutt">Hutt themed.</a></p>
+			</div>
+		</li>
+		<li>
+			<h3>IP over sms</h3>
+			<div class="copy">
+				<p>"Free" internet for those with unlimited texting but small data caps. Would need to be a phone app.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Captain Sonar PC Version</h3>
+			<div class="copy">
+				<p>Implement the table-top game Captain Sonar as an application, preferrably command line, for the cools.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Bee/wasp game, rts / town building</h3>
+			<div class="copy">
+				<p>Create a town building RTS with a colony insect theme. This could be really cool, because ants and bees and stuff are awesome</p>
+			</div>
+		</li>
+		<li>
+			<h3>San Francisco style Smart parking</h3>
+			<div class="copy">
+				<p>Apparently San Francisco has some really cool parking policies, with variable pricing based on demand. A lot of other cities could benefit from a similar setup. <a href="https://99percentinvisible.org/episode/episode-08-99-free-parking/">Here's the 99pi I got inspiration from.</a></p>
+			</div>
+		</li>
+		<li>
+			<h3>Smart Street Lights</h3>
+			<div class="copy">
+				<p>Inspired by MIT moon sensitive street light prototype. (<a href="http://www.civiltwilightcollective.com/lunar-resonant-streetlights/">link?</a>) Could also add smart grid integration. (Also see <a href="http://news.mit.edu/2016/drive-monitoring-urban-streetlights-0916">here</a>)</p>
+			</div>
+		</li>
+		<li>
+			<h3>raspi + hid arduinos keyboard and mouse augmenter - macro system</h3>
+			<div class="copy">
+				<p>Plug your keyboard and mouse into a Raspberry Pi. The raspberry pi can "augment" your input with macros and other utilities, and then sends the data out to an HID Arduino to be sent to a computer. You could have a hardware device with record/play/repeat macro functionality.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Morse code chat bot</h3>
+			<div class="copy">
+				<p>Chat bot, but communicates in Morse code. Would help with learning Morse code</p>
+			</div>
+		</li>
+		<li>
+			<h3>Motivational poster generator</h3>
+			<div class="copy">
+				<p>Use markov chains to randomly generate a "motivational" saying, then use a Google image search to find an image. Combine them to make a poster, and print it! Maybe add a big red "Motivate Me" button.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Physical TIS-100 cells</h3>
+			<div class="copy">
+				<p>Use FPGA or Microcontroller to create physical cells from the game <a href="http://www.zachtronics.com/tis-100/">TIS-100</a>. Would be a relatively easy way to learn about computer architecture and design.</p>
+			</div>
+		</li>
+		<li>
+			<h3>TTRPG Voice Generator with AWS Polly</h3>
+			<div class="copy">
+				<p>Help your GM/DM keep his accents straight with this simple tool! Basically a fancy GUI wrapper for AWS Polly</p>
+				<p>I helped implement this at Grizz Hacks 2017, link <a href="https://devpost.com/software/gmbabel">here!</a></p>
+			</div>
+		</li>
+		<li>
+			<h3>Arduino memory management</h3>
+			<div class="copy">
+				<p>Add malloc and free to Arduino. Basically write your own RTOS on Arduino. Would be super hard, but it would be a great way to learn about operating systems and memory management.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Broccoli detector with AWS Rekognition</h3>
+			<div class="copy">
+				<p>Make an app that will tell you whether a picture is of broccoli or not.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Vocal journal with compression and voice based recall</h3>
+			<div class="copy">
+				<p>Audio journal, but use text to speach to build an index so that you can search the voice later, and it will play back voice clips.</p>
+				<p>Translated text probably wouldn't actually be available to the user, because text to speach is usually not very good.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Phrase to TLA to techno-babel generator</h3>
+			<div class="copy">
+				<p>Create a program to search technical documentation for Three Letter Acronyms. Then, if you give it a three word phrase, it will find it's TLA, and all the technical terms to go with it.</p>
+				<p>Could also go the other way, give it a TLA or a three word technical phrase, and get a random english phrase out! Could use Markov chains, or do it randomly</p>
+			</div>
+		</li>
+		<li>
+			<h3>Facebook download analyzer with sentiment analysis</h3>
+			<div class="copy">
+				<p>Facebook allows you to download a record of every post, image, and IM you've ever created/sent.</p>
+				<p>This project would take that info, and analyze it to give you all kinds of interesting information, such as who your favorite freind is, what your favorite word is, what freind makes you the least happy, etc.</p>
+				<p>Would use sentiment analysis, data mining, etc.<p>
+				<p>Could also create a Facebook app, so you don't have to wait for the download. Either way, the permissions are <i>ugly.</i> Serious privacy issues here!</p>
+			</div>
+		</li>
+		<li>
+			<h3>Fun wifi name detector</h3>
+			<div class="copy">
+				<p>Create a service to detect when you connect to wifi, and check if it's name is "cool," then tell you. Would be a fun way to learn about writing background services.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Improved Hackthon Project Idea List website</h3>
+			<div class="copy">
+				<p>A better version of this, basically. I'd love to add a database back-end, for ease of use. I'd love to add tags, and searching, and filters.</p>
+				<p>For example, it would be nice to sort by difficulty, seriousness, scope, hardware/software, etc.<p>
+				<p>Would also be nice to have a way for people to send in a "postcard" if they use an idea here.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Modular member info management site for ACM/others</h3>
+			<div class="copy">
+				<p>Create a totally modular web-system for organization management. Would have a core module with basic info on members, then add additional modules for other functionality.</p>
+				<p>Each organization could include just the modules they need, so they don't have a ton of features they don't want.</p>
+				<p>Moduels to include could be things like sub-group membership, mailing-list maintenance, self-update interface, etc.</p>
+				<p>Would be a great way to learn about modular software design, and would create an actually useful final project for our local ACM</p>
+				<p><a href="https://devpost.com/thault">Tyler</a> helped me come up with this idea, and we're hoping to work on it at a hackathon in Spring 2018</p>
 			</div>
 		</li>
 	</ul>
