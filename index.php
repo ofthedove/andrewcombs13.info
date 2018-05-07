@@ -16,7 +16,7 @@
          <a href="timer/"><li>
             <h3>Timer</h3>
             <div class="copy">
-               <p>A JavaScript based timer</p>
+               <p>A JavaScript based timer. The background shows how much time has passed, so you can see how much time is left from far away.</p>
             </div>
          </li></a>
          <a href="games/"><li>
