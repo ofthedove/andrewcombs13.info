@@ -1,4 +1,4 @@
 <?php
-	header("Location: http://andrewcombs13.com/resume/resume.php");
+	header("Location: resume.php");
 	die();
 ?>

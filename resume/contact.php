@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Resume | AndrewCombs13.com</title>
-	<link rel="stylesheet" href="/resume/resume.css">
+	<link rel="stylesheet" href="resume.css">
 	<!-- Include jQuery from Google CDN -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<!-- Include Bootstrap from CDN -->
