@@ -3,12 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<title>Resume | AndrewCombs13.com</title>
-	<link rel="stylesheet" href="resume.css">
+
 	<!-- Include jQuery from Google CDN -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<!-- Include Bootstrap from CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<!-- Include custom styles -->
+	<link rel="stylesheet" href="resume.css">
 </head>
 <body>
 	<!-- #################### Header #################### -->
@@ -24,45 +27,40 @@
 		</div>
 	</div>
 	<!-- #################### Project Links #################### -->
-	<div class="project-container" id="project-container">
-		<a class="portfolio-project-link" href="project.php?id=1">
-			<div class="portfolio-project" id="">
-				<img class="pp-thumbnail" alt="" title="" src="">
-				<div class="pp-intro-text">
-					
+	<div class="portfolio">
+		<h1>External Links</h1>
+		<ul>
+			<li class="liLink"><a href="https://github.com/ofthedove">
+				<h3>Github</h3>
+				<div class="copy">
+					<p>Here you'll find the code that powers many of my class assignments and personal projects, including this website!</p>
 				</div>
-			</div>
-		</a>
-		<div class="portfolio-project" id="">
-			<img class="pp-thumbnail" alt="" title="" src="">
-			<div class="pp-intro-text">
-				
-			</div>
-		</div>
-		<div class="portfolio-project" id="">
-			<img class="pp-thumbnail" alt="" title="" src="">
-			<div class="pp-intro-text">
-				
-			</div>
-		</div>
-		<div class="portfolio-project" id="">
-			<img class="pp-thumbnail" alt="" title="" src="">
-			<div class="pp-intro-text">
-				
-			</div>
-		</div>
-		<div class="portfolio-project" id="">
-			<img class="pp-thumbnail" alt="" title="" src="">
-			<div class="pp-intro-text">
-				
-			</div>
-		</div>
-		<div class="portfolio-project" id="">
-			<img class="pp-thumbnail" alt="" title="" src="">
-			<div class="pp-intro-text">
-				
-			</div>
-		</div>
+			</a></li>
+			<li class="liLink"><a href="https://devpost.com/ofthedove">
+				<h3>DevPost</h3>
+				<div class="copy">
+					<p>This is where all my hackathon projects live.</p>
+				</div>
+			</a></li>
+			<li class="liLink"><a href="https://www.thingiverse.com/ofthedove">
+				<h3>Thingiverse</h3>
+				<div class="copy">
+					<p>I have a few 3D models uploaded here, and I hope to add more!</p>
+				</div>
+			</a></li>
+		</ul>
+		<h1>My Projects</h1>
+		<ul>
+			<li>
+				<h3>Personal Website</h3>
+				<div class="copy">
+					<p>This is a place for me to <a href="../projectideas">share ideas</a>, <a href="resume.php">display my resume</a>, and <a href="../games">practice web development.</a></p>
+					<p>I built it with PHP, HTML, CSS, Javascrtip, jQuery, and Bootstrap. I use Git for version control, hosted on GitHub, with the Source Tree GUI.</p> 
+					<p><a href="https://github.com/ofthedove/andrewcombs13.info">You can see the Git repo here!</a></p>
+				</div>
+			</li>
+		</ul>
+		<h2>More coming soon!</h2>
 	</div>
 </body>
 </html>
