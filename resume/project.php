@@ -13,6 +13,7 @@
 <body>
 	<!-- #################### Header #################### -->
 	<div id="header" class="jumbotron">
+		<a class="homeLink" href="../">&lt; Home</a>
 		<div class="container">
 			<h1>Andrew Combs</h1>
 			<ul>

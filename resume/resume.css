@@ -12,6 +12,23 @@ body{
 	text-align: center;
 }
 
+#header .homeLink {
+	display: block;
+	position: absolute;
+	left: 40px;
+	top: 20px;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	text-align: left;
+	color: darkgrey;
+}
+
+#header .homeLink:hover {
+	text-decoration: none;
+	color: black;
+}
+
 #header ul{
 	display: inline-block;
 	margin-top: 10px;
