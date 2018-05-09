@@ -7,10 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-   <?php include_once("/var/www/html/analyticstracking.php") ?>
-   <h1>Project Ideas</h1>
-   <h2>A bunch of ideas for projects, originally for inspiration at hackathons</h2>
-   <h2>It's a mix of hardware and software projects</h2>
+	<?php include_once("/var/www/html/analyticstracking.php") ?>
+	<a class="homeLink" href="../">&lt; Home</a>
+	<h1>Project Ideas</h1>
+	<h2>A bunch of ideas for projects, originally for inspiration at hackathons</h2>
+	<h2>It's a mix of hardware and software projects</h2>
 	<h3>(These are sorted chronologically, from oldest to newest. I'm working on it.)</h3>
 	<ul>
 		<li>

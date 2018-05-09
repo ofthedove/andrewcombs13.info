@@ -4,6 +4,22 @@ body{
 	background-color: white;
 }
 
+.homeLink {
+	display: block;
+	position: absolute;
+	left: 40px;
+	top: 20px;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	text-align: left;
+	color: black;
+}
+
+.homeLink:hover {
+	text-decoration: none;
+}
+
 h1, h2, h3{
    text-align: center;
 }
