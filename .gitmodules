@@ -1,0 +1,3 @@
+[submodule "classes/CECS622"]
+	path = classes/CECS622
+	url = git@github.com:ofthedove/CECS622.git
