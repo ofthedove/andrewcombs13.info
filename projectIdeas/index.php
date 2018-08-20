@@ -43,7 +43,7 @@
 		<li>
 			<h3>Smart medicine cabinet</h3>
 			<div class="copy">
-				<p>Mdeicne cabinet with a magic mirror that helps you keep track of when you take your medice. Never worry about taking to much medicine while you're sick again! Could also interface with the FDA's online database to warn people of possible interactions and show potential side effects, etc.</p>
+				<p>Medicine cabinet with a magic mirror that helps you keep track of when you take your medice. Never worry about taking too much medicine while you're sick again! Could also interface with the FDA's online database to warn people of possible interactions and show potential side effects, etc.</p>
 			</div>
 		</li>
 		<li>
@@ -102,7 +102,7 @@
 			</div>
 		</li>
 		<li>
-			<h3>Hex grid game of life, other game of life thing</h3>
+			<h3>Hex grid game of life</h3>
 			<div class="copy">
 				<p>Game of life, except hexes instead of squares</p>
 			</div>
@@ -158,7 +158,7 @@
 		<li>
 			<h3>AdChaff</h3>
 			<div class="copy">
-				<p>Have a pi that you log into with Google and Facebook and such, then it constantly visits random websites and clicks on ads. Make your online tracking data useless. Bonus points for simiple AI stuff, like turning off to simulate "sleep." Similar too, but different from, <a href="https://adnauseam.io/">AdNauseam</a></p>
+				<p>Have a pi that you log into with Google and Facebook and such, then it constantly visits random websites and clicks on ads. Make your online tracking data useless. Bonus points for simiple AI stuff, like turning off to simulate "sleep." Similar to, but different from, <a href="https://adnauseam.io/">AdNauseam</a></p>
 			</div>
 		</li>
 		<li>
@@ -182,7 +182,7 @@
 		<li>
 			<h3>Age of Empires second screen info mod (#villagers, military breakdown, etc)</h3>
 			<div class="copy">
-				<p>Sow details about game statistics in a second window. Pretty straightforward.</p>
+				<p>Show details about game statistics in a second window. Pretty straightforward.</p>
 			</div>
 		</li>
 		<li>
@@ -192,7 +192,7 @@
 			</div>
 		</li>
 		<li>
-			<h3>Age of Umpires<h3>
+			<h3>Age of Umpires</h3>
 			<div class="copy">
 				<p>Age of Empires satire based on baseball. Credit goes to my little brother for this idea.</p>
 			</div>
