@@ -386,6 +386,42 @@
 				<p><a href="https://devpost.com/thault">Tyler</a> helped me come up with this idea, and we're hoping to work on it at a hackathon in Spring 2018</p>
 			</div>
 		</li>
+		<li>
+			<h3>Clutch sync meter</h3>
+			<div class="copy">
+				<p>Use the tachometer, speedometer, and selected gear to determine whether the two sides of the clutch are spinning at the same speed. If not, display the difference.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Alexa controlled nerf turret</h3>
+			<div class="copy">
+				<p>Build one of these, becaue it's cool. https://hackaday.com/2018/05/08/alexa-attack-intruders/</p>
+			</div>
+		</li>
+		<li>
+			<h3>Secure note taking</h3>
+			<div class="copy">
+				<p>Professional-focused note taking app using block chain for security and immutability. (Add jira integration?)</p>
+			</div>
+		</li>
+		<li>
+			<h3>Smart phone fax machine</h3>
+			<div class="copy">
+				<p>Smart phones can scan documents (with the camera) and make phone calls. Why can't I fax from it?</p>
+			</div>
+		</li>
+		<li>
+			<h3>Smart dehumidifier</h3>
+			<div class="copy">
+				<p>(Based on Ault's project Aug 13 2018) Use weather and humidity and history to guess when humidifier tank will be full, monitor and send updates to user app.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Williams Tube (CRT as RAM)</h3>
+			<div class="copy">
+				<p>This is crazy cool. I bet I could build one.</p>
+			</div>
+		</li>
 	</ul>
 </body>
 </html>
