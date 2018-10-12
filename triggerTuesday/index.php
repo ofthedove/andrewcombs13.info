@@ -12,12 +12,12 @@
 	<h1>Trigger Tuesday</h1>
 	<h2>Miscellaneous Trigger Tuesday Stuff</h2>
 	<ul>
-		<li>
+		<li><a href="calendar.php">
 			<h3>Calendar</h3>
 			<div class="copy">
 				<p>A calendar of birthdays and events</p>
 			</div>
-		</li>
+		</a></li>
 	</ul>
 </body>
 </html>

@@ -31,19 +31,19 @@ ul{
 	list-style-type: none;
 }
 
-li{
+a{
+	font-weight: bold;
+}
+
+li>a{
 	display: block;
 	width: 40%;
 	margin: 2% auto;
-	padding: 1% 5%;
 	background-color: lightgrey;
-}
-
-a{
+	padding: 1% 5%;
+	color: inherit;
+	font-weight: inherit;
 	text-decoration: none;
-   font-weight: bold;
-	color: darkblue;
-	cursor: pointer;
 }
 
 h3{
