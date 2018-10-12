@@ -1,0 +1,71 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+.homeLink {
+	display: block;
+	position: absolute;
+	left: 40px;
+	top: 20px;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	text-align: left;
+	color: black;
+}
+
+.homeLink:hover {
+	text-decoration: none;
+}
+
+h1, h2, h3{
+   text-align: center;
+}
+
+ul{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+li{
+	display: block;
+	width: 40%;
+	margin: 2% auto;
+	padding: 1% 5%;
+	background-color: lightgrey;
+}
+
+a{
+	text-decoration: none;
+   font-weight: bold;
+	color: darkblue;
+	cursor: pointer;
+}
+
+h3{
+	
+}
+
+.copy{
+	
+}
+
+p{
+	
+}
+
+table{
+	width: 500px;
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+
+th, td{
+	margin: 0px;
+	padding: 5px;
+	border: 1px solid black;
+}
