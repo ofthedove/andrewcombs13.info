@@ -8,7 +8,7 @@
 </head>
 <body>
 	<?php include_once("/var/www/html/analyticstracking.php") ?>
-	<a class="homeLink" href="../">&lt; Home</a>
+	<a class="homeLink" href="./index.php">&lt; Back</a>
 	<h1>Trigger Tuesday Calendar</h1>
 	<h2>A calendar of birthdays and events</h2>
 	<h3>Birthdays</h3>
