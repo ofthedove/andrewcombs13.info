@@ -33,6 +33,7 @@
 		<tr><th>Date</th><th>Event</th></tr>
 		<tr><td>Sep 11</td><td>Trigger-off cooking competition  </td></tr>
 		<tr><td>Nov 13</td><td>Triggersgiving                   </td></tr>
+		<tr><td>Dec  1</td><td>Drunkenshot                      </td></tr>
 	</table>
 </body>
 </html>
