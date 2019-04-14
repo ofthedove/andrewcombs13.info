@@ -15,6 +15,7 @@
 	<table>
 		<tr><th>Date</th><th>Birthday</th></tr>
 		<tr><td>Jan 14</td><td>Luke     </td></tr>
+		<tr><td>Jan 19</td><td>Justin   </td></tr>
 		<tr><td>Mar 26</td><td>Kody     </td></tr>
 		<tr><td>Apr  7</td><td>Jacob    </td></tr>
 		<tr><td>Apr 30</td><td>Kenton   </td></tr>
