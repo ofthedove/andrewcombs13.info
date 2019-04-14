@@ -17,6 +17,8 @@
 		<tr><td>Jan 14</td><td>Luke     </td></tr>
 		<tr><td>Mar 26</td><td>Kody     </td></tr>
 		<tr><td>Apr  7</td><td>Jacob    </td></tr>
+		<tr><td>Apr 30</td><td>Kenton   </td></tr>
+		<tr><td>May  2</td><td>Meghan   </td></tr>
 		<tr><td>May 28</td><td>Travis   </td></tr>
 		<tr><td>Jul  1</td><td>Will     </td></tr>
 		<tr><td>Jul 31</td><td>Nate     </td></tr>
