@@ -422,6 +422,74 @@
 				<p>This is crazy cool. I bet I could build one.</p>
 			</div>
 		</li>
+		<li>
+			<h3>Noisy Chat</h3>
+			<div class="copy">
+				<p>A chat app with only one channel for everyone who uses the app. Users can write their own filters (in Javascript or something) to filter what they can see.</p>
+				<p>The idea is that friend groups would create their own "protocols" to talk to each other. Community members could also publish protocols and share encoders/decoders.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Digital Egg Timer</h3>
+			<div class="copy">
+				<p>Much more of a design challenge than a technical challenge. Analog egg timers are so simple and intuitive; I'd love to have a digital timer with similar ease of use.</p>
+			</div>
+		</li>
+		<li>
+			<h3>JSON and XML Alternative Using Regex</h3>
+			<div class="copy">
+				<p>Instead of encoding your data as JSON or XML, write a regex that only matches your data. Then, the decoder simply tries the regex on random strings until one matches.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Slack-finity Gauntlet</h3>
+			<div class="copy">
+				<p>Gauntlet which can detect when you snap your fingers. When a snap is detected, it connects to slack and deactivates 50% of accounts randomly. (User would have to be admin of the selected Slack.)</p>
+				<p>Could use a mic to detect snaps and an ESP8266 for web connection.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Auto Shin Guard</h3>
+			<div class="copy">
+				<p>Shin guard with ultrasonic rangefinder which warns you when you're about to bust your shins. It could use audio, vibration, or gently press/squeeze your leg.</p>
+				<p>Basically a less useful <a href="https://devpost.com/software/sonic-stick-plus">sonic stick</a></p>
+			</div>
+		</li>
+		<li>
+			<h3>Programmer Calculator</h3>
+			<div class="copy">
+				<p>A desktop calculator with nice, mechanical keys, but with programming functions like hex and binary conversion.</p>
+				<p>Could also give it the ability to connect to a computer as a keyboard/number pad, in addition to working as a stand alone calculator.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Step by Step Switch</h3>
+			<div class="copy">
+				<p>Build a working model of a step by step telephone swithc, because they're really cool.</p>
+			</div>
+		</li>
+		<li>
+			<h3>Garden Light Meter</h3>
+			<div class="copy">
+				<p>A thing you can stick in your garden that monitors light levels throughout the day to determine what plants are best suited to that particular location. If it's left out long enough it could even automatically detect region.</p>
+				<p>Ideally this would be an IoT device that uses the network for time and sends you plant recommendations over the internet</p>
+				<p>(Credit goes to my wife for this idea)</p>
+			</div>
+		</li>
+		<li>
+			<h3>Auto Shower</h3>
+			<div class="copy">
+				<p>Use a VOC sensor to detect when someone has bad BO, then trigger a solenoid to automatically douse them in lightly scented soapy water. Perfect for the ACM, or any computer club, game store, or hacker space!</p>
+			</div>
+		</li>
+		<li>
+			<h3>Submodules for Days</h3>
+			<div class="copy">
+				<p>Create a tool which would automatically generate a GitHub repo for every directory in your project folder, and link them together as submodules. As you work it would handle the complexity of updating the submodules.</p>
+				<p>This would ensure that your "number of repos" stat in GitHub will be very high. Just make a Java project or two with this system.</p>
+				<p>If you're looking for a way to get banned from GitHub, this might do it.</p>
+			</div>
+		</li>
 	</ul>
 </body>
 </html>
