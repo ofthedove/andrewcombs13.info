@@ -1,4 +1,4 @@
-const ideasList = document.querySelector('ul');
+
 
 const requestUrl = "http://andrewcombs13.com/dev/projectIdeas/Ideas.json";
 let request = new XMLHttpRequest();
@@ -12,6 +12,7 @@ request.onload = function() {
 }
 
 function showList(jsonObj) {
+    const ideasList = document.querySelector('ul');
     const ideas = jsonObj['ideas'];
 
     for(let i = ideas.length - 1; i >= 0; i--) {
