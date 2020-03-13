@@ -14,7 +14,7 @@ request.onload = function() {
 function showList(jsonObj) {
     const ideas = jsonObj['ideas'];
 
-    for(let i = 0; i < ideas.length; i++) {
+    for(let i = ideas.length - 1; i >= 0; i--) {
         const listItem = document.createElement('li');
         const header = document.createElement('h3');
         const descDiv = document.createElement('div');
