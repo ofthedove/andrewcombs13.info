@@ -1,0 +1,555 @@
+{
+   "ideas": [
+      {
+         "name": "Ultrasonic radar",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Use a stepper to spin an ultrasonic sensor around. Read the distance values and display on a radar-like screen.",
+            "I used this one as a final project for a class."
+         ]
+      },
+      {
+         "name": "Money to scholarships",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Make a browser extension that converts large sums of money to the number of scholarships that money could fund. Have settings for what school and full ride vs full scholarship, etc."
+         ]
+      },
+      {
+         "name": "Word search solver with ocr",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Solve word-search puzzles. This would be really fun from an algorithmic point of view. Hard mode - use OCR to run it on paper puzzles",
+            "I was on a team that implemented this at a hackathon, link <a href='https://devpost.com/software/lexitrek'>here</a>"
+         ]
+      },
+      {
+         "name": "Detachable proximity sensor",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Build a motion detector and RF transmitter that you can set somewhere. Also build a device with an RF receiver that will vibrate/buzz/light up when the motion detector 'sees' someone. Never have someone sneak up behind you again!"
+         ]
+      },
+      {
+         "name": "Smart medicine cabinet",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Medicine cabinet with a magic mirror that helps you keep track of when you take your medice. Never worry about taking too much medicine while you're sick again! Could also interface with the FDA's online database to warn people of possible interactions and show potential side effects, etc."
+         ]
+      },
+      {
+         "name": "Phone smart charger (stops charging after full charge)",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "App on your phone would track charge level, alert an Arduino/Raspberry Pi when your phone battery is full and shut off the charger with a relay. Could even track charge time and set to hit full charge right before you wake up."
+         ]
+      },
+      {
+         "name": "VHS Data Tape Backup",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Store computer data to VHS tapes.",
+            "Worked with a team to implement this at a hackathon. One of the most fun projects I've done at a hackathon. Details <a href='https://devpost.com/software/video-home-storage-odumbn'>here</a>"
+         ]
+      },
+      {
+         "name": "Program to order wifi preference on win 10 graphically",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Currently Windows 10 only allows you to change what wifi networks are most preferred through powershell. Would be easy to make a GUI for it, and very useful."
+         ]
+      },
+      {
+         "name": "Distributed temperature sensor thermostat w/ window directions",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "One of the biggest issues with thermostats is that they only sense temperature in one place in your house. Use a network of wifi-connected temperature sensors to get an average temperature, and build a thermostat off that. Bonus points: have a sensor outside and have the thermostat reccomend opening windows when more efficient that running HVAC. Maybe even integrate with online pollution index."
+         ]
+      },
+      {
+         "name": "ESP 8266 one-to-many audio streaming",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Implement audio streaming over bare UDP on ESP 8266s. Would be challenging to learn about stream control, networking, error correction, synchronization, etc."
+         ]
+      },
+      {
+         "name": "Surround sound with cheap speakers, perhaps wireless with above",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Turn 3 sets of stereo speakers into 6 channel surround sound using math and electronics. Difficulty level: hard."
+         ]
+      },
+      {
+         "name": "Monitor that dims when you look away",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Use a webcam and facial recognition (probably with OpenCV) to detect whether you're looking at your monitor. Dim your monitor when you're looking away to save power and ward off curious co-workers"
+         ]
+      },
+      {
+         "name": "Neural network voice teacher",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "<a href='https://rocksmith.ubisoft.com/rocksmith/en-us/home/'>This</a> but with a mic for voice"
+         ]
+      },
+      {
+         "name": "Autoranging hand towel dispenser",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Have you noticed how a lot of towel dispensers dispense towels even when no one is nearby? Use a basic AI to allow towel dispensers to automatically change their motion sensor sensitivity."
+         ]
+      },
+      {
+         "name": "Hex grid game of life",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Game of life, except hexes instead of squares"
+         ]
+      },
+      {
+         "name": "Dystopian RTS",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "RTS, but dystopian."
+         ]
+      },
+      {
+         "name": "Disposable chat thing",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Chat where you only keep your username as long as you're using it, and can change it at any time. Lots of anonymity."
+         ]
+      },
+      {
+         "name": "Smart phone",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Build a smart phone with an arduino/raspberry pi."
+         ]
+      },
+      {
+         "name": "Coil gun",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Capacitors and magnet wire. Move nails _really_ fast"
+         ]
+      },
+      {
+         "name": "Secure Phone -Analog Encryption -Recording -voice modulation",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Build a phone with an arduino (or raspberry pi) that adds all kinds of security features, low and high tech."
+         ]
+      },
+      {
+         "name": "Microcontroller SDR",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Low tech SDR using fast RAM, a binary counter, a micro, some adders, and PWM DAC."
+         ]
+      },
+      {
+         "name": "Text based adventure w/. multiplayer",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Text based adventure, except multiplayer"
+         ]
+      },
+      {
+         "name": "6 dof vr fps",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "First person shooter set in space with full 6 degrees of freedom. Bonus points for accurate orbital mechanics. Basically Shattered Horizons."
+         ]
+      },
+      {
+         "name": "AdChaff",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Have a pi that you log into with Google and Facebook and such, then it constantly visits random websites and clicks on ads. Make your online tracking data useless. Bonus points for simiple AI stuff, like turning off to simulate \"sleep.\" Similar to, but different from, <a href='https://adnauseam.io/'>AdNauseam</a>"
+         ]
+      },
+      {
+         "name": "XMega a3bu Oscope/Logic Analyser/function generator",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Build a terrible little Oscope with a microcontroller. Wouldn't be very good, but it would be cheap and useful for simple Arduino projects"
+         ]
+      },
+      {
+         "name": "Bluetooth numeric keypad",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Wireless bluetooth number pad. Surprisingly difficult to find one you can buy."
+         ]
+      },
+      {
+         "name": "Morse code speaker from loud printer",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "You know how some printers make loud noises as the print head moves back and forth? Write a program that, when given an input string, converts it to Morse code then generates a pdf that makes the printer move to sound out the morse code."
+         ]
+      },
+      {
+         "name": "Age of Empires second screen info mod (#villagers, military breakdown, etc)",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Show details about game statistics in a second window. Pretty straightforward."
+         ]
+      },
+      {
+         "name": "Arduino Yahtzee (Good complex example project)",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Implement the game Yahtzee on an Arduino. Would require a lot of knowledge of coding and, if done carefully, could cover almost every feature of object oriented programming and Arduino hardware."
+         ]
+      },
+      {
+         "name": "Age of Umpires",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Age of Empires satire based on baseball. Credit goes to my little brother for this idea."
+         ]
+      },
+      {
+         "name": "Reddit search engine",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Build an \"advanced search\" for Reddit. Allow you to search keywords, titles, usernames, etc. and filter by sub, date, poster, etc."
+         ]
+      },
+      {
+         "name": "Kerbal space program simulator",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Simulate playing the classic simulator! Press a button faster to make more things blow up!"
+         ]
+      },
+      {
+         "name": "Amazon Deals RSS Feed Scraper",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Amazon publishes an RSS feed of sales. Build a program that reads the feed and searches for specified keywords. Bonus points for filtering by cost, user rating etc. For example, you could specify that you want a 128GB SSD for less than $50 and it would alert you as soon as one came up."
+         ]
+      },
+      {
+         "name": "Physical WiFi pc remote",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Build a programmable remote for your PC that worked over WiFi. Power it with a Pi, ESP 8266, or Onion Omega. Communicate with VNC or have a small program on the PC that executed AutoHotKey scripts based on input from the remote."
+         ]
+      },
+      {
+         "name": "Breathing simulator (vr?)",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Breathing is actually really hard! Take the place of someones autonomic nervous system while they pursue a variety of activities. Can you keep their blood appropriately oxygenated based only on their heart rate and blood C02 levels?"
+         ]
+      },
+      {
+         "name": "Vector Spacewar / take apart CRT",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Convert an old CRT from raster graphics to vector graphics. Implement Spacewar on an arduino/raspberry pi and use the CRT as the display",
+            "I work with a team that attempted this at a hackathon, details <a href='https://devpost.com/software/space-war'>here.</a>",
+            "Spacewar is one of the oldest video games. Info about it <a href='https://en.wikipedia.org/wiki/Spacewar!''>here</a>",
+            "CAUTION! CRT displays are dangerous and can kill you half a dozen different ways. Don't open them unless you know what you're doing!"
+         ]
+      },
+      {
+         "name": "Better delete history",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "After deleting your history, it generates a bunch of fake, innocent looking history. Few things are more suspicious than a completely empty browser history."
+         ]
+      },
+      {
+         "name": "Suing machine",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Generates random law suit documents using basic AI. Allows you to pronounce sewing machine wrong with impunity."
+         ]
+      },
+      {
+         "name": "Better motion lights",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Motion lights that don't turn off when they stop seeing motion, they turn off when they sense motion somewhere else. Only really works if there's only one person though... This idea still needs work"
+         ]
+      },
+      {
+         "name": "\"Am I Wasting my Time\" website",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "It just says yes."
+         ]
+      },
+      {
+         "name": "Jabba Script",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Java Script, but <a href='http://starwars.wikia.com/wiki/Hutt'>Hutt themed.</a>"
+         ]
+      },
+      {
+         "name": "IP over sms",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "\"Free\" internet for those with unlimited texting but small data caps. Would need to be a phone app."
+         ]
+      },
+      {
+         "name": "Captain Sonar PC Version",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Implement the table-top game Captain Sonar as an application, preferrably command line, for the cools."
+         ]
+      },
+      {
+         "name": "Bee/wasp game, rts / town building",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Create a town building RTS with a colony insect theme. This could be really cool, because ants and bees and stuff are awesome"
+         ]
+      },
+      {
+         "name": "San Francisco style Smart parking",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Apparently San Francisco has some really cool parking policies, with variable pricing based on demand. A lot of other cities could benefit from a similar setup. <a href='https://99percentinvisible.org/episode/episode-08-99-free-parking/'>Here's the 99pi I got inspiration from.</a>"
+         ]
+      },
+      {
+         "name": "Smart Street Lights",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Inspired by MIT moon sensitive street light prototype. (<a href='http://www.civiltwilightcollective.com/lunar-resonant-streetlights/'>link?</a>) Could also add smart grid integration. (Also see <a href='http://news.mit.edu/2016/drive-monitoring-urban-streetlights-0916'>here</a>)"
+         ]
+      },
+      {
+         "name": "raspi + hid arduinos keyboard and mouse augmenter - macro system",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Plug your keyboard and mouse into a Raspberry Pi. The raspberry pi can \"augment\" your input with macros and other utilities, and then sends the data out to an HID Arduino to be sent to a computer. You could have a hardware device with record/play/repeat macro functionality."
+         ]
+      },
+      {
+         "name": "Morse code chat bot",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Chat bot, but communicates in Morse code. Would help with learning Morse code"
+         ]
+      },
+      {
+         "name": "Motivational poster generator",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Use markov chains to randomly generate a \"motivational\" saying, then use a Google image search to find an image. Combine them to make a poster, and print it! Maybe add a big red \"Motivate Me\" button."
+         ]
+      },
+      {
+         "name": "Physical TIS-100 cells",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Use FPGA or Microcontroller to create physical cells from the game <a href='http://www.zachtronics.com/tis-100/'>TIS-100</a>. Would be a relatively easy way to learn about computer architecture and design."
+         ]
+      },
+      {
+         "name": "TTRPG Voice Generator with AWS Polly",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Help your GM/DM keep his accents straight with this simple tool! Basically a fancy GUI wrapper for AWS Polly",
+            "I helped implement this at Grizz Hacks 2017, link <a href='https://devpost.com/software/gmbabel'>here!</a>"
+         ]
+      },
+      {
+         "name": "Arduino memory management",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Add malloc and free to Arduino. Basically write your own RTOS on Arduino. Would be super hard, but it would be a great way to learn about operating systems and memory management."
+         ]
+      },
+      {
+         "name": "Broccoli detector with AWS Rekognition",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Make an app that will tell you whether a picture is of broccoli or not."
+         ]
+      },
+      {
+         "name": "Vocal journal with compression and voice based recall",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Audio journal, but use text to speach to build an index so that you can search the voice later, and it will play back voice clips.",
+            "Translated text probably wouldn't actually be available to the user, because text to speach is usually not very good."
+         ]
+      },
+      {
+         "name": "Phrase to TLA to techno-babel generator",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Create a program to search technical documentation for Three Letter Acronyms. Then, if you give it a three word phrase, it will find it's TLA, and all the technical terms to go with it.",
+            "Could also go the other way, give it a TLA or a three word technical phrase, and get a random english phrase out! Could use Markov chains, or do it randomly"
+         ]
+      },
+      {
+         "name": "Facebook download analyzer with sentiment analysis",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Facebook allows you to download a record of every post, image, and IM you've ever created/sent.",
+            "This project would take that info, and analyze it to give you all kinds of interesting information, such as who your favorite freind is, what your favorite word is, what freind makes you the least happy, etc.",
+            "Would use sentiment analysis, data mining, etc.",
+            "Could also create a Facebook app, so you don't have to wait for the download. Either way, the permissions are <i>ugly.</i> Serious privacy issues here!"
+         ]
+      },
+      {
+         "name": "Fun wifi name detector",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Create a service to detect when you connect to wifi, and check if it's name is \"cool,\" then tell you. Would be a fun way to learn about writing background services."
+         ]
+      },
+      {
+         "name": "Improved Hackthon Project Idea List website",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "A better version of this, basically. I'd love to add a database back-end, for ease of use. I'd love to add tags, and searching, and filters.",
+            "For example, it would be nice to sort by difficulty, seriousness, scope, hardware/software, etc.",
+            "Would also be nice to have a way for people to send in a \"postcard\" if they use an idea here."
+         ]
+      },
+      {
+         "name": "Modular member info management site for ACM/others",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Create a totally modular web-system for organization management. Would have a core module with basic info on members, then add additional modules for other functionality.",
+            "Each organization could include just the modules they need, so they don't have a ton of features they don't want.",
+            "Moduels to include could be things like sub-group membership, mailing-list maintenance, self-update interface, etc.",
+            "Would be a great way to learn about modular software design, and would create an actually useful final project for our local ACM",
+            "<a href='https://devpost.com/thault'>Tyler</a> helped me come up with this idea, and we're hoping to work on it at a hackathon in Spring 2018"
+         ]
+      },
+      {
+         "name": "Clutch sync meter",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Use the tachometer, speedometer, and selected gear to determine whether the two sides of the clutch are spinning at the same speed. If not, display the difference."
+         ]
+      },
+      {
+         "name": "Alexa controlled nerf turret",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Build one of these, becaue it's cool. https://hackaday.com/2018/05/08/alexa-attack-intruders/"
+         ]
+      },
+      {
+         "name": "Secure note taking",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Professional-focused note taking app using block chain for security and immutability. (Add jira integration?)"
+         ]
+      },
+      {
+         "name": "Smart phone fax machine",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Smart phones can scan documents (with the camera) and make phone calls. Why can't I fax from it?"
+         ]
+      },
+      {
+         "name": "Smart dehumidifier",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "(Based on Ault's project Aug 13 2018) Use weather and humidity and history to guess when humidifier tank will be full, monitor and send updates to user app."
+         ]
+      },
+      {
+         "name": "Williams Tube (CRT as RAM)",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "This is crazy cool. I bet I could build one."
+         ]
+      },
+      {
+         "name": "Noisy Chat",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "A chat app with only one channel for everyone who uses the app. Users can write their own filters (in Javascript or something) to filter what they can see.",
+            "The idea is that friend groups would create their own \"protocols\" to talk to each other. Community members could also publish protocols and share encoders/decoders."
+         ]
+      },
+      {
+         "name": "Digital Egg Timer",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Much more of a design challenge than a technical challenge. Analog egg timers are so simple and intuitive; I'd love to have a digital timer with similar ease of use."
+         ]
+      },
+      {
+         "name": "JSON and XML Alternative Using Regex",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Instead of encoding your data as JSON or XML, write a regex that only matches your data. Then, the decoder simply tries the regex on random strings until one matches."
+         ]
+      },
+      {
+         "name": "Slack-finity Gauntlet",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Gauntlet which can detect when you snap your fingers. When a snap is detected, it connects to slack and deactivates 50% of accounts randomly. (User would have to be admin of the selected Slack.)",
+            "Could use a mic to detect snaps and an ESP8266 for web connection."
+         ]
+      },
+      {
+         "name": "Auto Shin Guard",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Shin guard with ultrasonic rangefinder which warns you when you're about to bust your shins. It could use audio, vibration, or gently press/squeeze your leg.",
+            "Basically a less useful <a href='https://devpost.com/software/sonic-stick-plus'>sonic stick</a>"
+         ]
+      },
+      {
+         "name": "Programmer Calculator",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "A desktop calculator with nice, mechanical keys, but with programming functions like hex and binary conversion.",
+            "Could also give it the ability to connect to a computer as a keyboard/number pad, in addition to working as a stand alone calculator."
+         ]
+      },
+      {
+         "name": "Step by Step Switch",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Build a working model of a step by step telephone swithc, because they're really cool."
+         ]
+      },
+      {
+         "name": "Garden Light Meter",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "A thing you can stick in your garden that monitors light levels throughout the day to determine what plants are best suited to that particular location. If it's left out long enough it could even automatically detect region.",
+            "Ideally this would be an IoT device that uses the network for time and sends you plant recommendations over the internet",
+            "(Credit goes to my wife for this idea)"
+         ]
+      },
+      {
+         "name": "Auto Shower",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Use a VOC sensor to detect when someone has bad BO, then trigger a solenoid to automatically douse them in lightly scented soapy water. Perfect for the ACM, or any computer club, game store, or hacker space!"
+         ]
+      },
+      {
+         "name": "Submodules for Days",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "Create a tool which would automatically generate a GitHub repo for every directory in your project folder, and link them together as submodules. As you work it would handle the complexity of updating the submodules.",
+            "This would ensure that your \"number of repos\" stat in GitHub will be very high. Just make a Java project or two with this system.",
+            "If you're looking for a way to get banned from GitHub, this might do it."
+         ]
+      }
+   ]
+}
