@@ -1,6 +1,6 @@
 
 
-const requestUrl = "http://andrewcombs13.com/dev/projectIdeas/Ideas.json";
+const requestUrl = "http://andrewcombs13.com/projectIdeas/Ideas.json";
 let request = new XMLHttpRequest();
 request.open('GET', requestUrl);
 request.responseType = 'json';
