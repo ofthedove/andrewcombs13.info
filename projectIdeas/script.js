@@ -7,13 +7,13 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function() {
-    sortList("newestFirst");
+    sortIdeas("newestFirst");
 }
 
 function generateIdeaArray(jsonObj) {
     const ideas = jsonObj['ideas'];
 
-    let ideasArray = [];
+    let ideaArray = [];
 
     for(let i =  0; i < ideas.length; i++) {
         const listItem = document.createElement('li');
@@ -35,7 +35,7 @@ function generateIdeaArray(jsonObj) {
         ideasArray.push(listItem);
     }
 
-    return ideasArray;
+    return ideaArray;
 }
 
 function showList(ideaArray) {
@@ -49,19 +49,20 @@ function showList(ideaArray) {
     ideasList.parentNode.replaceChild(newIdeasList, ideasList);
 }
 
-function sortList(sortOrder) {
+function sortIdeas(sortOrder) {
     if(request.response !== null)
     {
+        let ideaArray;
         switch(sortOrder)
         {
             case "newestFirst":
-                let ideaArray = generateIdeaArray(request.response);
+                ideaArray = generateIdeaArray(request.response);
                 ideaArray.reverse();
                 showList(ideaArray);
                 break;
             case "oldestFirst":
             default:
-                let ideaArray = generateIdeaArray(request.response);
+                ideaArray = generateIdeaArray(request.response);
                 showList(request.response);
                 break;
         }
