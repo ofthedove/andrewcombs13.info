@@ -7,15 +7,15 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function() {
-    const response = request.response;
-    showList(response);
+    sortList("newestFirst");
 }
 
-function showList(jsonObj) {
-    const ideasList = document.querySelector('ul');
+function generateIdeaArray(jsonObj) {
     const ideas = jsonObj['ideas'];
 
-    for(let i = ideas.length - 1; i >= 0; i--) {
+    let ideasArray = [];
+
+    for(let i =  0; i < ideas.length; i++) {
         const listItem = document.createElement('li');
         const header = document.createElement('h3');
         const descDiv = document.createElement('div');
@@ -32,6 +32,42 @@ function showList(jsonObj) {
         listItem.appendChild(header);
         listItem.appendChild(descDiv);
 
-        ideasList.appendChild(listItem);
+        ideasArray.push(listItem);
+    }
+
+    return ideasArray;
+}
+
+function showList(ideaArray) {
+    const ideasList = document.querySelector('#IdeaList');
+
+    let newIdeasList = document.createElement('ul');
+    newIdeasList.setAttribute('id', 'IdeaList');
+
+    ideaArray.forEach(idea => newIdeasList.appendChild(idea));
+
+    ideasList.parentNode.replaceChild(newIdeasList, ideasList);
+}
+
+function sortList(sortOrder) {
+    if(request.response !== null)
+    {
+        switch(sortOrder)
+        {
+            case "newestFirst":
+                let ideaArray = generateIdeaArray(request.response);
+                ideaArray.reverse();
+                showList(ideaArray);
+                break;
+            case "oldestFirst":
+            default:
+                let ideaArray = generateIdeaArray(request.response);
+                showList(request.response);
+                break;
+        }
+    }
+    else
+    {
+        console.log("No response yet!");
     }
 }

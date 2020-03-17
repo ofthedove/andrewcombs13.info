@@ -15,6 +15,10 @@
 	<h2>A bunch of ideas for projects, originally for inspiration at hackathons</h2>
 	<h2>It's a mix of hardware and software projects</h2>
 	<h3>(Now in reverse chronological order! Plus, 100% more JSON!)</h3>
-	<ul></ul>
+	<ul id="SortOptions">
+		<li onclick="sortIdeas('newestFirst')">Newest</li>
+		<li onclick="sortIdeas('oldestFirst')">Oldest</li>
+	</ul>
+	<ul id="IdeaList"></ul>
 </body>
 </html>
