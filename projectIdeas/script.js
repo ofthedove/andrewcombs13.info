@@ -32,7 +32,7 @@ function generateIdeaArray(jsonObj) {
         listItem.appendChild(header);
         listItem.appendChild(descDiv);
 
-        ideasArray.push(listItem);
+        ideaArray.push(listItem);
     }
 
     return ideaArray;
