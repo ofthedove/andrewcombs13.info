@@ -65,7 +65,7 @@ function sortIdeas(sortOrder) {
             case "oldestFirst":
             default:
                 ideaArray = generateIdeaArray(request.response);
-                showList(request.response);
+                showList(ideaArray);
                 break;
         }
     }
