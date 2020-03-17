@@ -44,7 +44,9 @@ function showList(ideaArray) {
     let newIdeasList = document.createElement('ul');
     newIdeasList.setAttribute('id', 'IdeaList');
 
-    ideaArray.forEach(idea => newIdeasList.appendChild(idea));
+    for(const idea of ideaArray) {
+        newIdeasList.appendChild(idea);
+    }
 
     ideasList.parentNode.replaceChild(newIdeasList, ideasList);
 }
