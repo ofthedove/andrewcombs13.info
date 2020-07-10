@@ -550,6 +550,17 @@
             "This would ensure that your \"number of repos\" stat in GitHub will be very high. Just make a Java project or two with this system.",
             "If you're looking for a way to get banned from GitHub, this might do it."
          ]
+      },
+      {
+         "name": "Git chat",
+         "dateAdded": "2012-04-23T18:25:43.511Z",
+         "description": [
+            "A chat service based on Git. Use commit messages for posts and branches for channels. Easily move discussions between channels by merging",
+            "git checkout -b random",
+            "git pull",
+            "git commit --allow-empty -m 'Hippos are Cool!'",
+            "git push"
+         ]
       }
    ]
 }
