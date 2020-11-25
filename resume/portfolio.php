@@ -56,7 +56,7 @@
 				<h3>Personal Website</h3>
 				<div class="copy">
 					<p>This is a place for me to <a href="../projectideas">share ideas</a>, <a href="resume.php">display my resume</a>, and <a href="../games">practice web development.</a></p>
-					<p>I built it with PHP, HTML, CSS, Javascrtip, jQuery, and Bootstrap. I use Git for version control, hosted on GitHub, with the Source Tree GUI.</p> 
+					<p>I built it with PHP, HTML, CSS, Javascrtip, jQuery, and Bootstrap. I use Git for version control, hosted on GitHub.</p> 
 					<p><a href="https://github.com/ofthedove/andrewcombs13.info">You can see the Git repo here!</a></p>
 				</div>
 			</li>
