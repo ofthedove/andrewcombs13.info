@@ -9,20 +9,26 @@
 <body>
    <?php include_once("/var/www/html/analyticstracking.php") ?>
    <div id="container">
-      <h1>This site is under development</h1>
-      <h2>And it probably always will be</h2>
-      <h2>Quick Links:</h2>
+      <h1>Andrew Combs</h1>
+      <h2>Personal Website</h2>
+      <h2><a href="github.com/ofthedove/andrewcombs13.info">View this website's code on Github<a></h2>
       <ul>
+         <a href="resume/"><li>
+            <h3>Resume</h3>
+            <div class="copy">
+               <p>View my professional history and academic achievements</p>
+            </div>
+         </li></a>
+         <a href="projectIdeas/"><li>
+            <h3>Project Ideas</h3>
+            <div class="copy">
+               <p>A list of ideas for projects, originally for Hackathons</p>
+            </div>
+         </li></a>
          <a href="timer/"><li>
             <h3>Timer</h3>
             <div class="copy">
-               <p>A JavaScript based timer. The background shows how much time has passed, so you can see how much time is left from far away.</p>
-            </div>
-         </li></a>
-         <a href="games/"><li>
-            <h3>Games</h3>
-            <div class="copy">
-               <p>A collection of simple, mostly useless JavaScript apps</p>
+               <p>JavaScript based timer. Full screen progress bar makes it ideal for use during presentations.</p>
             </div>
          </li></a>
          <a href="clock/"><li>
@@ -31,16 +37,10 @@
                <p>A clean, simple clock</p>
             </div>
          </li></a>
-         <a href="resume/"><li>
-            <h3>Resume</h3>
+         <a href="games/"><li>
+            <h3>Games</h3>
             <div class="copy">
-               <p>Only slightly outdated resume</p>
-            </div>
-         </li></a>
-         <a href="projectIdeas/"><li>
-            <h3>Project Ideas</h3>
-            <div class="copy">
-               <p>A list of ideas for projects, originally for Hackathons</p>
+               <p>A collection of simple, mostly useless JavaScript apps</p>
             </div>
          </li></a>
       </ul>
