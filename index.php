@@ -11,7 +11,7 @@
    <div id="container">
       <h1>Andrew Combs</h1>
       <h2>Personal Website</h2>
-      <h2><a href="github.com/ofthedove/andrewcombs13.info">View this website's code on Github<a></h2>
+      <h2><a href="https://github.com/ofthedove/andrewcombs13.info">View this website's code on Github<a></h2>
       <ul>
          <a href="resume/"><li>
             <h3>Resume</h3>
