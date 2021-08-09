@@ -29,8 +29,6 @@ function updateTime() {
             + padLeft(now.getMinutes().toString()) + ":"
             + padLeft((now.getSeconds() % 5).toString());
    $( "#resize" ).html(nowS);
-
-   centerClock();
 }
 
 function padLeft(inString) {
