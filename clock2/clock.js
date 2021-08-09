@@ -26,7 +26,7 @@ function updateTime() {
    let hours = now.getHours();
    hours = hours > 12 ? hours - 12 : hours;
    let seconds = now.getSeconds();
-   seconds = floor(seconds / 10) * 10;
+   seconds = Math.floor(seconds / 10) * 10;
    var nowS = padLeft(hours.toString()) + ":"
             + padLeft(now.getMinutes().toString()) + ":"
             + padLeft((seconds).toString());
