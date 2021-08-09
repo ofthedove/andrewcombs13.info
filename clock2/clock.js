@@ -25,9 +25,11 @@ function updateTime() {
    var now = new Date();
    let hours = now.getHours();
    hours = hours > 12 ? hours - 12 : hours;
+   let seconds = now.getSeconds();
+   seconds = floor(seconds / 10) * 10;
    var nowS = padLeft(hours.toString()) + ":"
             + padLeft(now.getMinutes().toString()) + ":"
-            + padLeft((now.getSeconds() % 5).toString());
+            + padLeft((seconds).toString());
    $( "#resize" ).html(nowS);
 }
 

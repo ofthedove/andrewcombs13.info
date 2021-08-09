@@ -14,3 +14,8 @@ body {
    margin: 10vh auto;
    vertical-align: middle;
 }
+
+#resize {
+   width: fit-content;
+   margin: auto;
+}
