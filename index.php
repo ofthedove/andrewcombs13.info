@@ -49,7 +49,7 @@
    <script>
       if(window.location.host.split('.')[0] === 'photos')
       {
-         window.location.replace('andrewcombs13.synology.me:5000/?launchapp=syno.foto.appinstance');
+         window.location.replace('https://andrewcombs13.synology.me:5001/?launchapp=syno.foto.appinstance');
       }
    </script>
 </body>
