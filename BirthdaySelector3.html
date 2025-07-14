@@ -1,0 +1,175 @@
+<!-- This document created with the help of Chat GPT (Free plan, Jul 14 2025) Link to chat record: https://chatgpt.com/share/68755e2c-6c24-8006-940e-5f4ea882873b -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>64-bit Age Input</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .description {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .bit-row {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 10px;
+      justify-content: center;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .bit-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 12px;
+    }
+    .bit-container input {
+      width: 60px;
+      text-align: center;
+      font-family: monospace;
+    }
+    .buttons {
+      display: flex;
+      gap: 2px;
+      margin-top: 4px;
+    }
+    .four-bit-row {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .submit-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    button {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="description">
+    Please input your age in seconds since the epoch.<br>
+    Note: Users born before 1970, please use 2's complement.
+  </div>
+
+  <div class="bit-row" id="bitRow"></div>
+
+  <div class="four-bit-row" id="fourBitRow"></div>
+
+  <div class="submit-container">
+    <button id="submitButton">Submit</button>
+  </div>
+
+  <script>
+    const bitRow = document.getElementById('bitRow');
+    const fourBitRow = document.getElementById('fourBitRow');
+
+    // Create 4 dropdowns for 4 bits
+    const bitSelectors = [];
+    for (let i = 3; i >= 0; i--) {
+      const select = document.createElement('select');
+      select.id = `fourBit${i}`;
+      ["0", "1"].forEach(v => {
+        const option = document.createElement('option');
+        option.value = v;
+        option.textContent = v;
+        select.appendChild(option);
+      });
+      fourBitRow.appendChild(select);
+      bitSelectors.push(select);
+    }
+
+    // Create 16 text inputs with STR and LD buttons
+    const textInputs = [];
+    for (let i = 15; i >= 0; i--) {
+      const container = document.createElement('div');
+      container.className = 'bit-container';
+
+      const highBit = i * 4 + 3;
+      const lowBit = i * 4;
+
+      const label = document.createElement('label');
+      label.textContent = `${highBit}-${lowBit}`;
+      container.appendChild(label);
+
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.id = `input${i}`;
+      input.readOnly = true;
+      input.value = "0000";
+      textInputs.push(input);
+      container.appendChild(input);
+
+      const buttonContainer = document.createElement('div');
+      buttonContainer.className = 'buttons';
+
+      const strButton = document.createElement('button');
+      strButton.textContent = "STR";
+      strButton.addEventListener('click', () => {
+        const value = bitSelectors.map(sel => sel.value).join('');
+        input.value = value;
+      });
+
+      const ldButton = document.createElement('button');
+      ldButton.textContent = "LD";
+      ldButton.addEventListener('click', () => {
+        const bits = input.value.padStart(4, '0').split('');
+        bits.forEach((bit, idx) => {
+          bitSelectors[idx].value = bit;
+        });
+      });
+
+      buttonContainer.appendChild(strButton);
+      buttonContainer.appendChild(ldButton);
+      container.appendChild(buttonContainer);
+
+      bitRow.appendChild(container);
+    }
+
+    document.getElementById('submitButton').addEventListener('click', () => {
+      // Combine all 64 bits into a single string
+      let bitString = "";
+      for (let i = 0; i <= 15; i++) {
+        let val = textInputs[i].value.trim();
+        if (!/^[01]{4}$/.test(val)) {
+          alert(`Invalid 4-bit value in segment ${i}: "${val}"`);
+          return;
+        }
+        bitString += val;
+      }
+
+      // Convert to BigInt
+      let bigIntValue = BigInt('0b' + bitString);
+
+      // If MSB is 1, interpret as negative (two's complement)
+      if (bitString[0] === '1') {
+        // Negative number
+        bigIntValue = bigIntValue - (1n << 64n);
+      }
+
+      // Convert seconds to milliseconds
+      const timestampMs = bigIntValue * 1000n;
+
+      try {
+        const date = new Date(Number(timestampMs));
+        if (isNaN(date.getTime())) {
+          alert("Invalid date.");
+        } else {
+          alert("Selected datetime:\n" + date.toUTCString());
+        }
+      } catch (e) {
+        alert("Error converting timestamp: " + e.message);
+      }
+    });
+  </script>
+</body>
+</html>
