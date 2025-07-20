@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Printable Monthly Calendar</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      text-align: center;
+      font-size: 16px;
+    }
+    #calendarContainer {
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+    }
+    #calendarHeader {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    #calendar {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    #calendar th, #calendar td {
+      border: 1px solid #000;
+      padding: 10px 0;
+      vertical-align: top;
+      height: 100px;
+    }
+    #calendar th {
+      background-color: #f0f0f0;
+      height: 16px;
+      padding: 10px 0;
+    }
+    select, button {
+      margin: 10px;
+      padding: 5px 10px;
+      font-size: 16px;
+    }
+    #warning {
+      font-size: 14px;
+      color: red;
+      margin-bottom: 10px;
+    }
+    #warning {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Printable Monthly Calendar</h1>
+  <div id="warning">Note: PDF download may not work properly in Firefox. For best results, use Chrome or Edge.</div>
+  <div id="info">This page was created with the assistance of ChatGPT. See the chat log <a href="https://chatgpt.com/share/687c6363-7910-8006-9cfe-20d78ca10a6f">here</a></div>
+  <div>
+    <label for="month">Month:</label>
+    <select id="month"></select>
+
+    <label for="year">Year:</label>
+    <select id="year"></select>
+
+    <button onclick="downloadPDF()">Download as PDF</button>
+  </div>
+
+  <div id="calendarContainer">
+    <div id="calendarHeader"></div>
+    <table id="calendar"></table>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>
+    const monthSelect = document.getElementById("month");
+    const yearSelect = document.getElementById("year");
+    const calendarTable = document.getElementById("calendar");
+    const calendarHeader = document.getElementById("calendarHeader");
+
+    for (let m = 0; m < 12; m++) {
+      const option = document.createElement("option");
+      option.value = m;
+      option.textContent = new Date(2020, m).toLocaleString("default", { month: "long" });
+      monthSelect.appendChild(option);
+    }
+
+    const currentYear = new Date().getFullYear();
+    for (let y = currentYear - 5; y <= currentYear + 5; y++) {
+      const option = document.createElement("option");
+      option.value = y;
+      option.textContent = y;
+      yearSelect.appendChild(option);
+    }
+
+    monthSelect.value = new Date().getMonth();
+    yearSelect.value = currentYear;
+
+    function generateCalendar() {
+      const month = parseInt(monthSelect.value);
+      const year = parseInt(yearSelect.value);
+      const firstDay = new Date(year, month, 1).getDay();
+      const daysInMonth = new Date(year, month + 1, 0).getDate();
+      const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+      const monthName = new Date(year, month).toLocaleString("default", { month: "long" });
+      calendarHeader.textContent = `${monthName} ${year}`;
+
+      calendarTable.innerHTML = "";
+
+      const headerRow = document.createElement("tr");
+      daysOfWeek.forEach(day => {
+        const th = document.createElement("th");
+        th.textContent = day;
+        headerRow.appendChild(th);
+      });
+      calendarTable.appendChild(headerRow);
+
+      let row = document.createElement("tr");
+      for (let i = 0; i < firstDay; i++) {
+        row.appendChild(document.createElement("td"));
+      }
+
+      for (let day = 1; day <= daysInMonth; day++) {
+        const td = document.createElement("td");
+        td.textContent = day;
+        row.appendChild(td);
+        if ((firstDay + day) % 7 === 0 || day === daysInMonth) {
+          calendarTable.appendChild(row);
+          row = document.createElement("tr");
+        }
+      }
+    }
+
+    async function downloadPDF() {
+      const { jsPDF } = window.jspdf;
+      const pdf = new jsPDF("l", "pt", "letter");
+      const container = document.getElementById("calendarContainer");
+
+      const month = parseInt(monthSelect.value);
+      const year = parseInt(yearSelect.value);
+      const monthName = new Date(year, month).toLocaleString("default", { month: "long" });
+      const fileName = `calendar-${monthName}-${year}.pdf`;
+
+      await new Promise(resolve => setTimeout(resolve, 100));
+
+      const canvas = await html2canvas(container, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: "#ffffff"
+      });
+
+      const imgData = canvas.toDataURL("image/png");
+      const pageWidth = pdf.internal.pageSize.getWidth();
+      const pageHeight = pdf.internal.pageSize.getHeight();
+
+      const margin = 20;
+      const pdfWidth = pageWidth - margin * 2;
+      const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+
+      const yOffset = (pageHeight - pdfHeight) / 2;
+
+      pdf.addImage(imgData, "PNG", margin, yOffset, pdfWidth, pdfHeight);
+      pdf.save(fileName);
+    }
+
+    monthSelect.addEventListener("change", generateCalendar);
+    yearSelect.addEventListener("change", generateCalendar);
+
+    generateCalendar();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>
