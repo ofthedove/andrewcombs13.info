@@ -39,7 +39,7 @@ function padLeft(inString) {
    //    return inString; }
    // //alert(inString.length + "   " + pad.length)
    // return pad.substring(0, pad.length - inString.length) + inString;
-   return inString;
+   return inString.padStart(2, "0");
 }
 
 function makeAllUnselectable() {
