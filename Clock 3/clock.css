@@ -1,0 +1,26 @@
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   background-color: black;
+   overflow: hidden;
+}
+
+#clock {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   color: white;
+   font-family: sans-serif;
+   font-weight: bold;
+   user-select: none;
+}
+
+#resize {
+   position: absolute;
+   display: inline-block;
+   width: fit-content;
+   white-space: nowrap;
+   line-height: 1;
+   font-variant-numeric: tabular-nums;
+}
