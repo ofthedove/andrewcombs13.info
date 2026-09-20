@@ -5,8 +5,13 @@ const TARGET_WIDTH_RATIO = 0.8;
 const TARGET_HEIGHT_RATIO = 0.8;
 
 let displayedHour = -1;
+let clockElement;
+let timeElement;
 
 document.addEventListener("DOMContentLoaded", () => {
+   clockElement = document.getElementById("clock");
+   timeElement = document.getElementById("resize");
+
    updateTime();
    layoutClock();
 
@@ -35,8 +40,6 @@ function buildPositionSequence(columns, rows) {
 }
 
 function layoutClock() {
-   const clockElement = document.getElementById("clock");
-   const timeElement = document.getElementById("resize");
    const positionIndex = displayedHour >= 0 ? displayedHour % POSITION_SEQUENCE.length : 0;
    const position = POSITION_SEQUENCE[positionIndex];
 
@@ -67,7 +70,7 @@ function updateTime() {
    let seconds = now.getSeconds();
    seconds = Math.floor(seconds / 10) * 10;
 
-   document.getElementById("resize").textContent =
+   timeElement.textContent =
       `${padLeft(currentHour.toString())}:${padLeft(now.getMinutes().toString())}:${padLeft(seconds.toString())}`;
 
    if (displayedHour !== currentHour) {
