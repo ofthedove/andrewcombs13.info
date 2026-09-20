@@ -61,8 +61,12 @@ function layoutClock() {
 
 function updateTime() {
    const now = new Date();
-   let hours = now.getHours();
-   hours = hours > 12 ? hours - 12 : hours;
+   const currentHour = now.getHours();
+   let hours = currentHour % 12;
+
+   if (hours === 0) {
+      hours = 12;
+   }
 
    let seconds = now.getSeconds();
    seconds = Math.floor(seconds / 10) * 10;
@@ -70,8 +74,8 @@ function updateTime() {
    document.getElementById("resize").textContent =
       `${padLeft(hours.toString())}:${padLeft(now.getMinutes().toString())}:${padLeft(seconds.toString())}`;
 
-   if (displayedHour !== now.getHours()) {
-      displayedHour = now.getHours();
+   if (displayedHour !== currentHour) {
+      displayedHour = currentHour;
       layoutClock();
    }
 }
