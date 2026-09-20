@@ -62,17 +62,12 @@ function layoutClock() {
 function updateTime() {
    const now = new Date();
    const currentHour = now.getHours();
-   let hours = currentHour % 12;
-
-   if (hours === 0) {
-      hours = 12;
-   }
 
    let seconds = now.getSeconds();
    seconds = Math.floor(seconds / 10) * 10;
 
    document.getElementById("resize").textContent =
-      `${padLeft(hours.toString())}:${padLeft(now.getMinutes().toString())}:${padLeft(seconds.toString())}`;
+      `${padLeft(currentHour.toString())}:${padLeft(now.getMinutes().toString())}:${padLeft(seconds.toString())}`;
 
    if (displayedHour !== currentHour) {
       displayedHour = currentHour;
