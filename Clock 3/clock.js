@@ -37,7 +37,8 @@ function buildPositionSequence(columns, rows) {
 function layoutClock() {
    const clockElement = document.getElementById("clock");
    const timeElement = document.getElementById("resize");
-   const position = POSITION_SEQUENCE[displayedHour >= 0 ? displayedHour : 0];
+   const positionIndex = displayedHour >= 0 ? displayedHour % POSITION_SEQUENCE.length : 0;
+   const position = POSITION_SEQUENCE[positionIndex];
 
    timeElement.style.fontSize = "100%";
 
