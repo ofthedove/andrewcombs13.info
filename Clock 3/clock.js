@@ -76,8 +76,9 @@ function updateTime() {
 
    if (displayedHour !== currentHour) {
       displayedHour = currentHour;
-      layoutClock();
    }
+
+   layoutClock();
 }
 
 function padLeft(inString) {
